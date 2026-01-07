@@ -1,0 +1,31 @@
+ecommerce-backend
+│
+├── pom.xml
+├── README.md
+│
+└── src/main/java/com/example/ecommerce
+    │
+    ├── EcommerceApplication.java
+    │
+    ├── controller
+    │   ├── ProductController.java
+    │   ├── CartController.java
+    │   └── OrderController.java
+    │
+    ├── service
+    │   ├── ProductService.java
+    │   ├── CartService.java
+    │   └── OrderService.java
+    │
+    ├── repository
+    │   ├── ProductRepository.java
+    │   ├── CartRepository.java
+    │   └── OrderRepository.java
+    │
+    ├── model
+    │   ├── Product.java
+    │   ├── Cart.java
+    │   └── OrderEntity.java
+    │
+    └── security
+        └── SecurityConfig.java
